@@ -1,6 +1,6 @@
 SET TERM ^ ;
 
-CREATE TRIGGER HabitacionesGrupoID FOR HabitacionesGrupo
+CREATE TRIGGER HabitacionesGrupoID FOR HabitacionesGrupos
 BEFORE INSERT POSITION 0
 AS 
 BEGIN 
@@ -12,7 +12,7 @@ SET TERM ; ^
 
 SET TERM ^ ;
 
-CREATE TRIGGER HabitacionesEstadoID FOR HabitacionesEstado
+CREATE TRIGGER HabitacionesEstadoID FOR HabitacionesEstados
 BEFORE INSERT POSITION 0
 AS 
 BEGIN 

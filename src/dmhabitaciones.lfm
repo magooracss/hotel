@@ -1,0 +1,250 @@
+object DM_Habitaciones: TDM_Habitaciones
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 463
+  HorizontalOffset = 462
+  VerticalOffset = 230
+  Width = 562
+  object Habitaciones: TRxMemoryData
+    FieldDefs = <    
+      item
+        Name = 'id'
+        DataType = ftString
+        Precision = 0
+        Size = 38
+      end    
+      item
+        Name = 'grupo_id'
+        DataType = ftInteger
+        Precision = 0
+        Size = 0
+      end    
+      item
+        Name = 'nombre'
+        DataType = ftString
+        Precision = 0
+        Size = 50
+      end    
+      item
+        Name = 'camasSimples'
+        DataType = ftInteger
+        Precision = 0
+        Size = 0
+      end    
+      item
+        Name = 'CamasDobles'
+        DataType = ftInteger
+        Precision = 0
+        Size = 0
+      end    
+      item
+        Name = 'Precio'
+        DataType = ftFloat
+        Precision = 0
+        Size = 0
+      end    
+      item
+        Name = 'estado_id'
+        DataType = ftInteger
+        Precision = 0
+        Size = 0
+      end    
+      item
+        Name = 'bVisible'
+        DataType = ftInteger
+        Precision = 0
+        Size = 0
+      end    
+      item
+        Name = 'lxGrupo'
+        DataType = ftString
+        Precision = 0
+        Size = 50
+      end>
+    AfterInsert = HabitacionesAfterInsert
+    PacketRecords = 0
+    left = 48
+    top = 32
+    object Habitacionesid: TStringField
+      DisplayWidth = 38
+      FieldKind = fkData
+      FieldName = 'id'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 38
+    end
+    object Habitacionesgrupo_id: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'grupo_id'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object Habitacionesnombre: TStringField
+      DisplayWidth = 50
+      FieldKind = fkData
+      FieldName = 'nombre'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object HabitacionescamasSimples: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'camasSimples'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object HabitacionesCamasDobles: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'CamasDobles'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object HabitacionesPrecio: TFloatField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'Precio'
+      Index = 5
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Currency = True
+      MaxValue = 0
+      MinValue = 0
+      Precision = 2
+    end
+    object Habitacionesestado_id: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'estado_id'
+      Index = 6
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object HabitacionesbVisible: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'bVisible'
+      Index = 7
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object HabitacioneslxGrupo: TStringField
+      DisplayWidth = 50
+      FieldKind = fkData
+      FieldName = 'lxGrupo'
+      Index = 8
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+  end
+  object tugHabitacionesGrupos: TZQuery
+    Connection = DM_General.cnxBase
+    SQL.Strings = (
+      'select  *'
+      'from habitacionesGrupos'
+      'where (bVisible = 1)'
+    )
+    Params = <>
+    left = 472
+    top = 48
+    object tugHabitacionesGruposID: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = True
+    end
+    object tugHabitacionesGruposGRUPO: TStringField
+      DisplayWidth = 200
+      FieldKind = fkData
+      FieldName = 'GRUPO'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 200
+    end
+    object tugHabitacionesGruposBVISIBLE: TSmallintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'BVISIBLE'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+  end
+  object tugHabitacionesEstados: TZQuery
+    Connection = DM_General.cnxBase
+    SQL.Strings = (
+      'select *'
+      'from habitacionesEstados'
+      'where bVisible = 1'
+    )
+    Params = <>
+    left = 472
+    top = 112
+    object tugHabitacionesEstadosID: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = True
+    end
+    object tugHabitacionesEstadosESTADO: TStringField
+      DisplayWidth = 200
+      FieldKind = fkData
+      FieldName = 'ESTADO'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 200
+    end
+    object tugHabitacionesEstadosBVISIBLE: TSmallintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'BVISIBLE'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+  end
+end
