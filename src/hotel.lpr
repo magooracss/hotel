@@ -8,7 +8,7 @@ uses
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
   Forms, rxnew, zcomponent, frm_main, SD_Configuracion, versioninfo, dmgeneral,
-  dmhabitaciones, frm_habitaciones
+  dmhabitaciones, frm_habitaciones, frm_habitacionae
   { you can add units after this };
 
 {$R *.res}

@@ -51,7 +51,7 @@
         <PackageName Value="LCL"/>
       </Item5>
     </RequiredPackages>
-    <Units Count="7">
+    <Units Count="8">
       <Unit0>
         <Filename Value="hotel.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -87,6 +87,7 @@
         <Filename Value="dmhabitaciones.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="DM_Habitaciones"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="dmhabitaciones"/>
       </Unit5>
@@ -94,9 +95,17 @@
         <Filename Value="frm_habitaciones.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmHabitaciones"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frm_habitaciones"/>
       </Unit6>
+      <Unit7>
+        <Filename Value="frm_habitacionae.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmHabitacionAE"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frm_habitacionae"/>
+      </Unit7>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

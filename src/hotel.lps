@@ -4,12 +4,12 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="7">
+    <Units Count="8">
       <Unit0>
         <Filename Value="hotel.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="hotel"/>
-        <UsageCount Value="22"/>
+        <UsageCount Value="23"/>
       </Unit0>
       <Unit1>
         <Filename Value="frm_main.pas"/>
@@ -22,7 +22,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="32"/>
         <CursorPos X="40" Y="47"/>
-        <UsageCount Value="22"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -30,13 +30,13 @@
         <Filename Value="SD_Configuracion.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="SD_Configuracion"/>
-        <UsageCount Value="22"/>
+        <UsageCount Value="23"/>
       </Unit2>
       <Unit3>
         <Filename Value="versioninfo.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="versioninfo"/>
-        <UsageCount Value="22"/>
+        <UsageCount Value="23"/>
       </Unit3>
       <Unit4>
         <Filename Value="dmgeneral.pas"/>
@@ -45,11 +45,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="dmgeneral"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="4"/>
         <WindowIndex Value="0"/>
         <TopLine Value="319"/>
         <CursorPos X="3" Y="330"/>
-        <UsageCount Value="22"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit4>
@@ -57,13 +57,14 @@
         <Filename Value="dmhabitaciones.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="DM_Habitaciones"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="dmhabitaciones"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="36"/>
         <CursorPos X="9" Y="45"/>
-        <UsageCount Value="21"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit5>
@@ -71,141 +72,156 @@
         <Filename Value="frm_habitaciones.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmHabitaciones"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frm_habitaciones"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="103" Y="10"/>
-        <UsageCount Value="21"/>
+        <CursorPos X="49" Y="9"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit6>
+      <Unit7>
+        <Filename Value="frm_habitacionae.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmHabitacionAE"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frm_habitacionae"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="9"/>
+        <CursorPos X="1" Y="32"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit7>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="frm_main.pas"/>
-        <Caret Line="48" Column="24" TopLine="37"/>
-      </Position1>
-      <Position2>
-        <Filename Value="frm_main.pas"/>
-        <Caret Line="49" Column="24" TopLine="38"/>
-      </Position2>
-      <Position3>
-        <Filename Value="frm_main.pas"/>
-        <Caret Line="50" Column="24" TopLine="39"/>
-      </Position3>
-      <Position4>
-        <Filename Value="frm_main.pas"/>
-        <Caret Line="51" Column="24" TopLine="40"/>
-      </Position4>
-      <Position5>
-        <Filename Value="frm_main.pas"/>
-        <Caret Line="52" Column="24" TopLine="41"/>
-      </Position5>
-      <Position6>
-        <Filename Value="frm_main.pas"/>
-        <Caret Line="59" Column="24" TopLine="43"/>
-      </Position6>
-      <Position7>
-        <Filename Value="frm_main.pas"/>
-        <Caret Line="60" Column="3" TopLine="49"/>
-      </Position7>
-      <Position8>
-        <Filename Value="frm_habitaciones.pas"/>
-        <Caret Line="1" Column="1" TopLine="1"/>
-      </Position8>
-      <Position9>
         <Filename Value="dmhabitaciones.pas"/>
         <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="dmgeneral.pas"/>
+        <Caret Line="11" Column="7" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="dmgeneral.pas"/>
+        <Caret Line="42" Column="9" TopLine="14"/>
+      </Position3>
+      <Position4>
+        <Filename Value="dmgeneral.pas"/>
+        <Caret Line="67" Column="26" TopLine="40"/>
+      </Position4>
+      <Position5>
+        <Filename Value="dmgeneral.pas"/>
+        <Caret Line="73" Column="22" TopLine="46"/>
+      </Position5>
+      <Position6>
+        <Filename Value="dmgeneral.pas"/>
+        <Caret Line="100" Column="28" TopLine="74"/>
+      </Position6>
+      <Position7>
+        <Filename Value="dmgeneral.pas"/>
+        <Caret Line="99" Column="32" TopLine="74"/>
+      </Position7>
+      <Position8>
+        <Filename Value="dmgeneral.pas"/>
+        <Caret Line="100" Column="28" TopLine="74"/>
+      </Position8>
+      <Position9>
+        <Filename Value="dmgeneral.pas"/>
+        <Caret Line="41" Column="20" TopLine="27"/>
       </Position9>
       <Position10>
         <Filename Value="dmgeneral.pas"/>
-        <Caret Line="11" Column="7" TopLine="1"/>
+        <Caret Line="42" Column="9" TopLine="27"/>
       </Position10>
       <Position11>
-        <Filename Value="dmgeneral.pas"/>
-        <Caret Line="42" Column="9" TopLine="14"/>
+        <Filename Value="dmhabitaciones.pas"/>
+        <Caret Line="57" Column="3" TopLine="27"/>
       </Position11>
       <Position12>
-        <Filename Value="dmgeneral.pas"/>
-        <Caret Line="67" Column="26" TopLine="40"/>
+        <Filename Value="dmhabitaciones.pas"/>
+        <Caret Line="58" Column="3" TopLine="28"/>
       </Position12>
       <Position13>
-        <Filename Value="dmgeneral.pas"/>
-        <Caret Line="73" Column="22" TopLine="46"/>
+        <Filename Value="dmhabitaciones.pas"/>
+        <Caret Line="59" Column="3" TopLine="29"/>
       </Position13>
       <Position14>
-        <Filename Value="dmgeneral.pas"/>
-        <Caret Line="100" Column="28" TopLine="74"/>
+        <Filename Value="dmhabitaciones.pas"/>
+        <Caret Line="60" Column="3" TopLine="30"/>
       </Position14>
       <Position15>
-        <Filename Value="dmgeneral.pas"/>
-        <Caret Line="99" Column="32" TopLine="74"/>
+        <Filename Value="dmhabitaciones.pas"/>
+        <Caret Line="59" Column="3" TopLine="29"/>
       </Position15>
       <Position16>
-        <Filename Value="dmgeneral.pas"/>
-        <Caret Line="100" Column="28" TopLine="74"/>
+        <Filename Value="dmhabitaciones.pas"/>
+        <Caret Line="60" Column="3" TopLine="30"/>
       </Position16>
       <Position17>
-        <Filename Value="dmgeneral.pas"/>
-        <Caret Line="41" Column="20" TopLine="27"/>
+        <Filename Value="dmhabitaciones.pas"/>
+        <Caret Line="61" Column="3" TopLine="31"/>
       </Position17>
       <Position18>
-        <Filename Value="dmgeneral.pas"/>
-        <Caret Line="42" Column="9" TopLine="27"/>
+        <Filename Value="dmhabitaciones.pas"/>
+        <Caret Line="62" Column="3" TopLine="32"/>
       </Position18>
       <Position19>
         <Filename Value="dmhabitaciones.pas"/>
-        <Caret Line="57" Column="3" TopLine="27"/>
+        <Caret Line="63" Column="3" TopLine="33"/>
       </Position19>
       <Position20>
         <Filename Value="dmhabitaciones.pas"/>
-        <Caret Line="58" Column="3" TopLine="28"/>
+        <Caret Line="64" Column="3" TopLine="34"/>
       </Position20>
       <Position21>
-        <Filename Value="dmhabitaciones.pas"/>
-        <Caret Line="59" Column="3" TopLine="29"/>
+        <Filename Value="frm_habitaciones.pas"/>
+        <Caret Line="10" Column="103" TopLine="1"/>
       </Position21>
       <Position22>
         <Filename Value="dmhabitaciones.pas"/>
-        <Caret Line="60" Column="3" TopLine="30"/>
+        <Caret Line="38" Column="46" TopLine="36"/>
       </Position22>
       <Position23>
-        <Filename Value="dmhabitaciones.pas"/>
-        <Caret Line="59" Column="3" TopLine="29"/>
+        <Filename Value="frm_habitacionae.pas"/>
+        <Caret Line="1" Column="20" TopLine="1"/>
       </Position23>
       <Position24>
-        <Filename Value="dmhabitaciones.pas"/>
-        <Caret Line="60" Column="3" TopLine="30"/>
+        <Filename Value="frm_habitacionae.pas"/>
+        <Caret Line="25" Column="1" TopLine="9"/>
       </Position24>
       <Position25>
-        <Filename Value="dmhabitaciones.pas"/>
-        <Caret Line="61" Column="3" TopLine="31"/>
+        <Filename Value="frm_habitacionae.pas"/>
+        <Caret Line="26" Column="1" TopLine="9"/>
       </Position25>
       <Position26>
-        <Filename Value="dmhabitaciones.pas"/>
-        <Caret Line="62" Column="3" TopLine="32"/>
+        <Filename Value="frm_habitacionae.pas"/>
+        <Caret Line="27" Column="1" TopLine="9"/>
       </Position26>
       <Position27>
-        <Filename Value="dmhabitaciones.pas"/>
-        <Caret Line="63" Column="3" TopLine="33"/>
+        <Filename Value="frm_habitacionae.pas"/>
+        <Caret Line="28" Column="1" TopLine="9"/>
       </Position27>
       <Position28>
-        <Filename Value="dmhabitaciones.pas"/>
-        <Caret Line="64" Column="3" TopLine="34"/>
+        <Filename Value="frm_habitacionae.pas"/>
+        <Caret Line="29" Column="1" TopLine="9"/>
       </Position28>
       <Position29>
-        <Filename Value="frm_habitaciones.pas"/>
-        <Caret Line="10" Column="103" TopLine="1"/>
+        <Filename Value="frm_habitacionae.pas"/>
+        <Caret Line="30" Column="1" TopLine="9"/>
       </Position29>
       <Position30>
-        <Filename Value="dmhabitaciones.pas"/>
-        <Caret Line="38" Column="46" TopLine="36"/>
+        <Filename Value="frm_habitacionae.pas"/>
+        <Caret Line="32" Column="1" TopLine="9"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>
